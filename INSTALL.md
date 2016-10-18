@@ -1,5 +1,4 @@
 # How to install Caffe on a Redhat Linux Server (lionxv.rcc.psu.edu) LOCALLY without SUDO/ROOT access
-# The instructions are inspired from http://autchen.github.io/guides/2015/04/03/caffe-install.html
 
 
 
