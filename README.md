@@ -15,6 +15,7 @@
 <p>export LD_LIBRARY_PATH=$HOME/usr/lib/:$HOME/usr/protobuf/src/.libs:$LD_LIBRARY_PATH
 <p>export PKG_CONFIG_PATH=$HOME/usr/lib/pkgconfig:$PKG_CONFIG_PATH
 
+
 <p># .bash_profile
 <p># Get the aliases and functions
 <p>if [ -f ~/.bashrc ]; then
