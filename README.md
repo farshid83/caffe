@@ -39,7 +39,7 @@ module load mkl/11.2.0.90
 
 module load gcc/4.7.1
 
-#module load blas/3.5.0
+module load blas/3.5.0
 
 module load hdf5/1.8.11
 
@@ -168,6 +168,25 @@ cd lmdb/libraries/liblmdb
 make
 
 make install
+
+
+# numpy from http://github.com/numpy/numpy
+
+wget https://github.com/numpy/numpy/archive/v1.11.2.tar.gz
+
+tar zxvf v1.11.2.tar.gz
+
+rm v1.11.2.tar.gz
+
+cd numpy-1.11.2
+
+easy_install-2.7 pip
+
+pip install --user package_name
+
+python setup.py build
+
+python setup.py install --prefix=$HOME/usr
 
 
 
