@@ -37,20 +37,20 @@ echo "gurobi/6.5.1 loaded."
 
 # Your ~/.bashrc will look like (~/.bash_profile should just exe ~/.bashrc):
 
-# .bashrc
-# Source global definitions
+## .bashrc
+## Source global definitions
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
-# User specific aliases and functions
+## User specific aliases and functions
 HOME=/gpfs/home/fuf111
 export PATH=$HOME/usr/bin/:$HOME/usr/include/:$HOME/usr/lib/:$PATH
 export PATH=$HOME/usr/python/Python-2.7.12/:$PATH
 export LD_LIBRARY_PATH=$HOME/usr/lib/:$HOME/usr/protobuf/src/.libs:$LD_LIBRARY_PATH
 export PKG_CONFIG_PATH=$HOME/usr/lib/pkgconfig:$PKG_CONFIG_PATH
 
-# .bash_profile
-# Get the aliases and functions
+## .bash_profile
+## Get the aliases and functions
 if [ -f ~/.bashrc ]; then
         . ~/.bashrc
 fi
