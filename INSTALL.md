@@ -7,9 +7,9 @@
 
 ## .bashrc
 ## Source global definitions
-$ if [ -f /etc/bashrc ]; then
-$         . /etc/bashrc
-$ fi
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
 ## User specific aliases and functions
 HOME=/gpfs/home/fuf111
 export PATH=$HOME/usr/bin/:$HOME/usr/include/:$HOME/usr/lib/:$PATH
