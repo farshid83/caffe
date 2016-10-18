@@ -4,20 +4,19 @@
 
 # ~/.bashrc and ~/.bash_profile look like as:
 
-## .bashrc
-## Source global definitions
+<p># .bashrc
 <p>if [ -f /etc/bashrc ]; then </p>
 <p>       . /etc/bashrc </p>
 <p>fi</p>
-## User specific aliases and functions
+<p># User specific aliases and functions
 <p>HOME=/gpfs/home/fuf111
 <p>export PATH=$HOME/usr/bin/:$HOME/usr/include/:$HOME/usr/lib/:$PATH
 <p>export PATH=$HOME/usr/python/Python-2.7.12/:$PATH
 <p>export LD_LIBRARY_PATH=$HOME/usr/lib/:$HOME/usr/protobuf/src/.libs:$LD_LIBRARY_PATH
 <p>export PKG_CONFIG_PATH=$HOME/usr/lib/pkgconfig:$PKG_CONFIG_PATH
 
-## .bash_profile
-## Get the aliases and functions
+<p># .bash_profile
+<p># Get the aliases and functions
 <p>if [ -f ~/.bashrc ]; then
 <p>        . ~/.bashrc
 <p>fi
