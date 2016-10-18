@@ -8,19 +8,20 @@
 <p>if [ -f /etc/bashrc ]; then </p>
 <p>       . /etc/bashrc </p>
 <p>fi</p>
-<p># User specific aliases and functions
-<p>HOME=/gpfs/home/fuf111
-<p>export PATH=$HOME/usr/bin/:$HOME/usr/include/:$HOME/usr/lib/:$PATH
-<p>export PATH=$HOME/usr/python/Python-2.7.12/:$PATH
-<p>export LD_LIBRARY_PATH=$HOME/usr/lib/:$HOME/usr/protobuf/src/.libs:$LD_LIBRARY_PATH
-<p>export PKG_CONFIG_PATH=$HOME/usr/lib/pkgconfig:$PKG_CONFIG_PATH
+<p># User specific aliases and functions</p>
+<p>HOME=/gpfs/home/fuf111</p>
+<p>export PATH=$HOME/usr/bin/:$HOME/usr/include/:$HOME/usr/lib/:$PATH</p>
+<p>export PATH=$HOME/usr/python/Python-2.7.12/:$PATH</p>
+<p>export LD_LIBRARY_PATH=$HOME/usr/lib/:$HOME/usr/protobuf/src/.libs:$LD_LIBRARY_PATH</p>
+<p>export PKG_CONFIG_PATH=$HOME/usr/lib/pkgconfig:$PKG_CONFIG_PATH</p>
 
+<p> </p>
 
-<p># .bash_profile
-<p># Get the aliases and functions
-<p>if [ -f ~/.bashrc ]; then
-<p>        . ~/.bashrc
-<p>fi
+<p># .bash_profile</p>
+<p># Get the aliases and functions</p>
+<p>if [ -f ~/.bashrc ]; then</p>
+<p>        . ~/.bashrc</p>
+<p>fi</p>
 
 
 
