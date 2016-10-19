@@ -119,7 +119,7 @@ mkdir build
 
 cd build
 
-ccmake .. # change prefix field to $(HOME)/usr and then "configure"
+ccmake .. # change prefix field to $(HOME)/usr and then "configure,generate,quit"
 
 vi CMakeCache.txt # change CMAKE_CXX_FLAGS:STRING+=-fPIC
 
@@ -138,7 +138,7 @@ mkdir build
 
 cd build
 
-ccmake .. # change prefix field to $(HOME)/usr and then "configure"
+ccmake .. # change prefix field to $(HOME)/usr and then "configure,generate,quit"
 
 vi CMakeCache.txt # change CMAKE_CXX_FLAGS:STRING+=-fPIC
 
