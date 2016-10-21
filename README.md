@@ -204,7 +204,7 @@ PYTHON_LIB := $(HOME)/usr/lib/python2.7
 
 INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include $(HOME)/usr/include /usr/global/opencv/2.4.2/include /usr/global/hdf5/1.8.11/include
 
-LIBRARY_DIRS := $(PYTHON_LIB) /usr/lib /usr/local/lib $(HOME)/usr/lib /usr/global/opencv/2.4.2/lib /usr/global/hdf5/1.8.11/lib /usr/global/intel/composer_xe/2015.0.090/mkl/lib/intel64
+LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib $(HOME)/usr/lib /usr/global/opencv/2.4.2/lib /usr/global/hdf5/1.8.11/lib /usr/global/intel/composer_xe/2015.0.090/mkl/lib/intel64 #You may comment /usr/lib to use newer compatible lib
 
 
 
