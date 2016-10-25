@@ -167,7 +167,7 @@ cd lmdb/libraries/liblmdb
 
 make
 
-make install
+make install // if "Permission Denied" manually cp them to your own $HOME/usr/bin
 
 
 # numpy from http://github.com/numpy/numpy
